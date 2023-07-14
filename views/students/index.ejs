@@ -1,0 +1,5 @@
+<%- include("../partials/header") %> <%students.forEach ((s)=>{ %>
+
+<a href="/students/<%=s.id%>"><li><%=s.name %></li></a>
+
+<% }) %> <%- include("../partials/footer") %>
